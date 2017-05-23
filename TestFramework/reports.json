@@ -1,0 +1,226 @@
+[
+  {
+    "uri": "C:/Users/Moklasur.Rahman/Documents/GitHub/FLASH/Flash Test Framework/features/Sacelab_Example.feature",
+    "id": "kudos-website",
+    "keyword": "Feature",
+    "name": "Kudos website",
+    "description": "",
+    "line": 4,
+    "comments": [
+      {
+        "value": "# https://saucelabs.com/platforms/#windows_old",
+        "line": 1
+      },
+      {
+        "value": "# osx109 = Mac / OS X Mavericks",
+        "line": 2
+      },
+      {
+        "value": "# osx108 = Mac / OS X   Mountain Lion",
+        "line": 3
+      }
+    ],
+    "elements": [
+      {
+        "id": "kudos-website;sauce-labs-example-with-various-browsers;;2",
+        "keyword": "Scenario Outline",
+        "name": "Sauce labs example with various browsers",
+        "description": "",
+        "line": 21,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@Author:MOKLASUR",
+            "line": 6
+          },
+          {
+            "name": "@Date:09/01/2016",
+            "line": 7
+          },
+          {
+            "name": "@User_Story:FTC-2",
+            "line": 8
+          }
+        ],
+        "comments": [
+          {
+            "value": "# And User should be able to give Kudos",
+            "line": 16
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2142041000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "As user I navigate to Kudos Login page \"chrome40|osx109\"",
+            "line": 21,
+            "match": {
+              "location": "features/step_definitions/Saucelab_Example.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14241781000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "User type username and password on the appropriate fields",
+            "line": 21,
+            "match": {
+              "location": "features/step_definitions/Kudos_Login.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48119477000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User clicks on the login button",
+            "line": 21,
+            "match": {
+              "location": "features/step_definitions/Kudos_Login.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8311475000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "User should be able to search for people by name",
+            "line": 21,
+            "match": {
+              "location": "features/step_definitions/Give_A_Point.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18965085000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:104"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 351020000
+            }
+          }
+        ]
+      },
+      {
+        "id": "kudos-website;sauce-labs-example-with-various-browsers;;3",
+        "keyword": "Scenario Outline",
+        "name": "Sauce labs example with various browsers",
+        "description": "",
+        "line": 22,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@Author:MOKLASUR",
+            "line": 6
+          },
+          {
+            "name": "@Date:09/01/2016",
+            "line": 7
+          },
+          {
+            "name": "@User_Story:FTC-2",
+            "line": 8
+          }
+        ],
+        "comments": [
+          {
+            "value": "# And User should be able to give Kudos",
+            "line": 16
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15913794000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "As user I navigate to Kudos Login page \"firefox36|windows81\"",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/Saucelab_Example.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16575274000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "User type username and password on the appropriate fields",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/Kudos_Login.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71597299000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User clicks on the login button",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/Kudos_Login.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7139580000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "User should be able to search for people by name",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/Give_A_Point.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12496486000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:104"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 389203000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
