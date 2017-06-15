@@ -25,7 +25,7 @@
     <!-- Custom styles for this template -->
     <link href="<c:url value="/resources/css/carousel.css" />" rel="stylesheet">
 </head>
-<!-- NAVBAR
+<!-- NAVBAR1111
 ================================================== -->
 <body>
 <div class="navbar-wrapper">
