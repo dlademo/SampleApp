@@ -37,19 +37,20 @@
             <scope>test</scope>
         </dependency>
 
-    </dependencies>
-         
-     <build>
-        <plugin>
-                    <groupId>org.apache.tomcat.maven</groupId>
-                    <artifactId>tomcat7-maven-plugin</artifactId>
-                    <version>2.2</version>
-                    <configuration>
+    </dependencies>    
+    <build>
+            
+			<plugin>
+					<groupId>org.apache.tomcat.maven</groupId>
+					<artifactId>tomcat7-maven-plugin</artifactId>
+					<version>2.2</version>
+					<configuration>
                         <url>http://localhost:8085/manager/text</url>
                         <server>TomcatServer</server>
                         <path>/dlademo</path>
                     </configuration>
-          </plugin>
+            </plugin>
+			
     <build>
 
 </project>
