@@ -1,12 +1,12 @@
 class PagesDisplay < GenericBasePage
 
-  element(:testing) { |b| b.link(:href => 'testing.html')}
-  element(:devops) { |b| b.link(:href => 'devops.html')}
-  element(:software) { |b| b.link(:href => 'development.html')}
+  element(:testing) { |b| b.h2(:xpath => '/html/body/div[3]/div/div[1]/h2')}
+  element(:devops) { |b| b.h2(:xpath => '/html/body/div[3]/div/div[2]/h2')}
+  element(:software) { |b| b.h2(:xpath => '/html/body/div[3]/div/div[3]/h2')}
 
 
   def testing_page
-    testing.when_persent.click
+    testing.when_present.double_click
 
   end
 

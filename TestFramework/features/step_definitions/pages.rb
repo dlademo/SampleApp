@@ -1,5 +1,10 @@
+Given(/^user navigates to the DLA DEMO webpage1$/) do
+  visit FirstTestContactPage
+end
+
 When(/^user clicks on testing tab from homepage$/) do
   on(PagesDisplay).testing_page
+  sleep 2
 end
 
 Then(/^user is able to verify the testing page exist$/) do
@@ -21,3 +26,4 @@ end
 Then(/^user is able to verify the Software Development page exist$/) do
   on(PagesDisplay).verification_page
 end
+
