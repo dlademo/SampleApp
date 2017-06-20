@@ -9,6 +9,8 @@
                 <input type="number" name="Age"><br>
         Gender:<br>
                 <input type="text" name="Gender"><br>    
+	Heights:<br>
+                <input type="text" name="Height"><br> 
 </form> 
 
 <html>
