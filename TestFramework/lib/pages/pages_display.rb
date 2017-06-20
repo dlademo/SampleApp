@@ -1,12 +1,12 @@
 class PagesDisplay < GenericBasePage
 
-  element(:testing) { |b| b.h2(:xpath => '/html/body/div[3]/div/div[1]/h2')}
-  element(:devops) { |b| b.h2(:xpath => '/html/body/div[3]/div/div[2]/h2')}
-  element(:software) { |b| b.h2(:xpath => '/html/body/div[3]/div/div[3]/h2')}
+  element(:testing) { |b| b.a(xpath: '/html/body/div[3]/div/div[1]/p[2]/a')}
+  element(:devops) { |b| b.a(xpath: '/html/body/div[3]/div/div[2]/p[2]/a')}
+  element(:software) { |b| b.a(xpath: '/html/body/div[3]/div/div[3]/p[2]/a')}
 
 
   def testing_page
-    testing.when_present.double_click
+    testing.when_present.click
 
   end
 
