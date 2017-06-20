@@ -94,18 +94,18 @@
         1,
 =======
         null,
-        5,
+        8,
         2,
         2,
         2,
         2,
         3,
         3,
-        5,
+        8,
         null,
         null,
         1,
-        4,
+        7,
         null,
         null,
 >>>>>>> 0d05cf98cc6b054609d9346a18d7419838e8a79d
@@ -130,8 +130,12 @@
         null,
         null,
         1,
+<<<<<<< HEAD
+        7,
+=======
         4,
 >>>>>>> 0d05cf98cc6b054609d9346a18d7419838e8a79d
+>>>>>>> 487bcaa43a4e40370be263f7171761cd96569091
         null,
         null,
         null,
@@ -150,6 +154,10 @@
         null,
         null,
         1,
+<<<<<<< HEAD
+        37,
+        37,
+=======
         9,
         null,
         null,
@@ -159,19 +167,24 @@
 =======
         25,
         25,
+>>>>>>> 487bcaa43a4e40370be263f7171761cd96569091
         null,
-        25,
-        25,
+        37,
+        37,
         null,
         null,
         1,
-        19,
+        25,
         null,
         null,
         1,
         2,
+<<<<<<< HEAD
+        8,
+=======
         5,
 >>>>>>> 0d05cf98cc6b054609d9346a18d7419838e8a79d
+>>>>>>> 487bcaa43a4e40370be263f7171761cd96569091
         null,
         null,
         null,
@@ -203,8 +216,12 @@
 =======
         57,
         null,
+<<<<<<< HEAD
+        25,
+=======
         19,
 >>>>>>> 0d05cf98cc6b054609d9346a18d7419838e8a79d
+>>>>>>> 487bcaa43a4e40370be263f7171761cd96569091
         null,
         null,
         null,
@@ -502,7 +519,7 @@
         null,
         null,
         1,
-        7,
+        10,
         null,
         null,
         null
@@ -582,26 +599,26 @@
         1,
         null,
         null,
-        5,
-        5,
+        8,
+        8,
         null,
-        5,
-        null,
-        0,
-        null,
-        null,
-        null,
-        null,
-        5,
-        5,
+        8,
         null,
         0,
         null,
         null,
         null,
         null,
+        8,
+        8,
         null,
-        5,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        8,
         null,
         null,
         null,
@@ -637,7 +654,7 @@
         null,
         null,
         1,
-        5,
+        8,
         0,
         0,
         0,
@@ -654,7 +671,7 @@
         null,
         null,
         null,
-        5,
+        8,
         null,
         null,
         null,
@@ -671,12 +688,16 @@
         1,
         1,
 <<<<<<< HEAD
+        7,
+        null,
+        null,
+        1,
+        7,
+=======
+<<<<<<< HEAD
 =======
         4,
-        null,
-        null,
-        1,
-        4,
+>>>>>>> 487bcaa43a4e40370be263f7171761cd96569091
         null,
         null,
         null,
@@ -687,8 +708,40 @@
         null,
         null,
         1,
-        4,
-        4,
+        7,
+        7,
+        null,
+        null,
+        null
+      ],
+      "C:/Users/Tareque.Alam/Documents/GitHub/SampleApp/TestFramework/features/step_definitions/excel_outline.rb": [
+        1,
+        3,
+        3,
+        null,
+        null,
+        1,
+        3,
+        3,
+        null,
+        null,
+        1,
+        3,
+        3,
+        null,
+        null,
+        1,
+        3,
+        3,
+        null,
+        null,
+        1,
+        3,
+        3,
+        3,
+        3,
+        null,
+        null,
         null
       ],
       "C:/Users/Tareque.Alam/Documents/GitHub/SampleApp/TestFramework/features/step_definitions/outline.rb": [
@@ -751,9 +804,13 @@
       ]
     },
 <<<<<<< HEAD
+    "timestamp": 1497983997
+=======
+<<<<<<< HEAD
     "timestamp": 1497967167
 =======
     "timestamp": 1497972502
 >>>>>>> 0d05cf98cc6b054609d9346a18d7419838e8a79d
+>>>>>>> 487bcaa43a4e40370be263f7171761cd96569091
   }
 }
