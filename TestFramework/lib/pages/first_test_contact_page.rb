@@ -26,10 +26,12 @@ class FirstTestContactPage < GenericBasePage
 
   def drop_down_lists
     country.when_present.click
-    country.when_present.set "USA"
+    sleep 2
+    country.when_present.select 'USA'
     sleep 2
     state.when_present.click
-    state.when_present.set "Virginia"
+    sleep 2
+    state.when_present.select 'Virginia'
   end
 
   def submit_button
