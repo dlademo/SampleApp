@@ -27,15 +27,15 @@
             <td class="left_align"><a href="lib-pages-pages_display_rb.html">lib/pages/pages_display.rb</a></td>
             <td class='right_align'><tt>25</tt></td>
             <td class='right_align'><tt>12</tt></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>84.00%</tt></div>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
       <div class="percent_graph">
-        <div class="covered" style="width:84px"></div>
-        <div class="uncovered" style="width:16px"></div>
+        <div class="covered" style="width:100px"></div>
+        <div class="uncovered" style="width:0px"></div>
       </div></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>66.67%</tt></div>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
       <div class="percent_graph">
-        <div class="covered" style="width:67px"></div>
-        <div class="uncovered" style="width:33px"></div>
+        <div class="covered" style="width:100px"></div>
+        <div class="uncovered" style="width:0px"></div>
       </div></td>
           </tr>
         </tbody>
@@ -57,13 +57,13 @@
           <td><pre><a name="line3">3</a> </pre></td>
         </tr>
         <tr class="marked">
-          <td><pre><a name="line4">4</a>   element(:testing) { |b| b.h2(:xpath =&gt; &#39;/html/body/div[3]/div/div[1]/h2&#39;)}</pre></td>
+          <td><pre><a name="line4">4</a>   element(:testing) { |b| b.a(xpath: &#39;/html/body/div[3]/div/div[1]/p[2]/a&#39;)}</pre></td>
         </tr>
         <tr class="marked">
-          <td><pre><a name="line5">5</a>   element(:devops) { |b| b.h2(:xpath =&gt; &#39;/html/body/div[3]/div/div[2]/h2&#39;)}</pre></td>
+          <td><pre><a name="line5">5</a>   element(:devops) { |b| b.a(xpath: &#39;/html/body/div[3]/div/div[2]/p[2]/a&#39;)}</pre></td>
         </tr>
         <tr class="marked">
-          <td><pre><a name="line6">6</a>   element(:software) { |b| b.h2(:xpath =&gt; &#39;/html/body/div[3]/div/div[3]/h2&#39;)}</pre></td>
+          <td><pre><a name="line6">6</a>   element(:software) { |b| b.a(xpath: &#39;/html/body/div[3]/div/div[3]/p[2]/a&#39;)}</pre></td>
         </tr>
         <tr class="inferred">
           <td><pre><a name="line7">7</a> </pre></td>
@@ -74,8 +74,8 @@
         <tr class="marked">
           <td><pre><a name="line9">9</a>   def testing_page</pre></td>
         </tr>
-        <tr class="uncovered">
-          <td><pre><a name="line10">10</a>     testing.when_present.double_click</pre></td>
+        <tr class="marked">
+          <td><pre><a name="line10">10</a>     testing.when_present.click</pre></td>
         </tr>
         <tr class="inferred">
           <td><pre><a name="line11">11</a> </pre></td>
@@ -89,7 +89,7 @@
         <tr class="marked">
           <td><pre><a name="line14">14</a>   def devops_page</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line15">15</a>     devops.when_present.click</pre></td>
         </tr>
         <tr class="inferred">
@@ -101,7 +101,7 @@
         <tr class="marked">
           <td><pre><a name="line18">18</a>   def software_page</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line19">19</a>     software.when_present.click</pre></td>
         </tr>
         <tr class="inferred">
@@ -113,7 +113,7 @@
         <tr class="marked">
           <td><pre><a name="line22">22</a>   def verification_page</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line23">23</a>     puts &quot;Welcome To: #{@browser.title}&quot;</pre></td>
         </tr>
         <tr class="inferred">
@@ -128,7 +128,7 @@
       </tbody>
     </table>
 
-    <p>Generated on 2017-06-15 10:28:01 -0400 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
+    <p>Generated on 2017-06-20 09:32:20 -0400 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
 
   </body>
 </html>

@@ -20,9 +20,8 @@
               "location": "features/support/hooks.rb:47"
             },
             "result": {
-              "status": "failed",
-              "error_message": "unknown driver: :IE (ArgumentError)\n./features/support/hooks.rb:63:in `new'\n./features/support/hooks.rb:63:in `Before'",
-              "duration": 5002000
+              "status": "passed",
+              "duration": 3950215000
             }
           }
         ],
@@ -35,7 +34,8 @@
               "location": "features/step_definitions/pages.rb:1"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2387435000
             }
           },
           {
@@ -46,7 +46,8 @@
               "location": "features/step_definitions/pages.rb:5"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2694813000
             }
           },
           {
@@ -57,7 +58,8 @@
               "location": "features/step_definitions/pages.rb:10"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 31200000
             }
           },
           {
@@ -68,7 +70,8 @@
               "location": "features/step_definitions/pages.rb:14"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2365031000
             }
           },
           {
@@ -79,7 +82,8 @@
               "location": "features/step_definitions/pages.rb:18"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 10000000
             }
           },
           {
@@ -90,7 +94,8 @@
               "location": "features/step_definitions/pages.rb:22"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 892710000
             }
           },
           {
@@ -101,7 +106,8 @@
               "location": "features/step_definitions/pages.rb:26"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 30001000
             }
           }
         ],
@@ -111,9 +117,8 @@
               "location": "features/support/hooks.rb:104"
             },
             "result": {
-              "status": "failed",
-              "error_message": "undefined method `driver' for nil:NilClass (NoMethodError)\n./features/support/hooks.rb:109:in `After'",
-              "duration": 0
+              "status": "passed",
+              "duration": 436201000
             }
           }
         ]
