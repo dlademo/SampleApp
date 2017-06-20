@@ -1,5 +1,95 @@
 [
   {
+    "uri": "C:/Users/Tareque.Alam/Documents/GitHub/SampleApp/TestFramework/features/DLA_Demo_FirstTest_Contact_Page.feature",
+    "id": "this-test-is-to-validate-the-contact-page's-functionality-for-the-dla-demo-website",
+    "keyword": "Feature",
+    "name": "This test is to validate the Contact page's functionality for the DLA-DEMO website",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "this-test-is-to-validate-the-contact-page's-functionality-for-the-dla-demo-website;user-validates-the-contact-page-is-functional",
+        "keyword": "Scenario",
+        "name": "User validates the contact page is functional",
+        "description": "",
+        "line": 3,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4166816000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "User navigates to the DLA-DEMO webpage",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/dla_demo.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30382266000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User clicks on contact tab and validates the contact page is displays successfully",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/dla_demo.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2436534000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user fill out the text fields from the contact page and clicks on submit button",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/dla_demo.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8828926000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user validates the data has been displayed successfully",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/dla_demo.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1220714000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:104"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 451801000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
     "uri": "C:/Users/Tareque.Alam/Documents/GitHub/SampleApp/TestFramework/features/DLA_Demo_pages_display.feature",
     "id": "this-test-is-to-validate-the-different-page's-functionality-for-the-dla-website",
     "keyword": "Feature",
@@ -21,7 +111,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3950215000
+              "duration": 3739715000
             }
           }
         ],
@@ -35,7 +125,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2387435000
+              "duration": 7886921000
             }
           },
           {
@@ -47,7 +137,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2694813000
+              "duration": 4575442000
             }
           },
           {
@@ -71,7 +161,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2365031000
+              "duration": 6323292000
             }
           },
           {
@@ -83,7 +173,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 22501000
             }
           },
           {
@@ -95,7 +185,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 892710000
+              "duration": 2407032000
             }
           },
           {
@@ -107,7 +197,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30001000
+              "duration": 25001000
             }
           }
         ],
@@ -118,7 +208,401 @@
             },
             "result": {
               "status": "passed",
-              "duration": 436201000
+              "duration": 511101000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "C:/Users/Tareque.Alam/Documents/GitHub/SampleApp/TestFramework/features/DLA_Outline_Contact_Page.feature",
+    "id": "this-test-is-to-validate-the-contact-page's-functionality-for-the-dla-demo-website",
+    "keyword": "Feature",
+    "name": "This test is to validate the Contact page's functionality for the DLA-DEMO website",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "this-test-is-to-validate-the-contact-page's-functionality-for-the-dla-demo-website;user-validates-the-contact-page-is-functional;;2",
+        "keyword": "Scenario Outline",
+        "name": "User validates the contact page is functional",
+        "description": "",
+        "line": 14,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3626715000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "User navigates to the DLA-DEMO webpage",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/dla_demo.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7940021000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User clicks on contact tab and validates the contact page is displays successfully",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/dla_demo.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2627535000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user fill first name Tareque the text fields from the contact page",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/outline.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 325902000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "users last name Alam the text fields from the contact page",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/outline.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 413202000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user fill out  sereve ct the text fields from the contact page",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/outline.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 437602000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user can fill test@dla.com the text fields from the contact page",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/outline.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 267201000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user select the Australia and Virginia names from drop down lists",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/outline.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 445102000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user validates the data has been displayed successfully",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/dla_demo.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 777709000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:104"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 454301000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-test-is-to-validate-the-contact-page's-functionality-for-the-dla-demo-website;user-validates-the-contact-page-is-functional;;3",
+        "keyword": "Scenario Outline",
+        "name": "User validates the contact page is functional",
+        "description": "",
+        "line": 15,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3813615000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "User navigates to the DLA-DEMO webpage",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/dla_demo.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24214671000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User clicks on contact tab and validates the contact page is displays successfully",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/dla_demo.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1867725000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user fill first name Michael the text fields from the contact page",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/outline.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 387803000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "users last name Turner the text fields from the contact page",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/outline.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 386402000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user fill out  test ct the text fields from the contact page",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/outline.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 359602000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user can fill test1@dla.com the text fields from the contact page",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/outline.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 393302000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user select the Canada and New York names from drop down lists",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/outline.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 551803000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user validates the data has been displayed successfully",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/dla_demo.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 758207000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:104"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 467401000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-test-is-to-validate-the-contact-page's-functionality-for-the-dla-demo-website;user-validates-the-contact-page-is-functional;;4",
+        "keyword": "Scenario Outline",
+        "name": "User validates the contact page is functional",
+        "description": "",
+        "line": 16,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3889614000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "User navigates to the DLA-DEMO webpage",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/dla_demo.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9074438000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User clicks on contact tab and validates the contact page is displays successfully",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/dla_demo.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2232630000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user fill first name Moklasur the text fields from the contact page",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/outline.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 382103000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "users last name Rahman the text fields from the contact page",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/outline.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 257201000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user fill out  nice ct the text fields from the contact page",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/outline.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 277202000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user can fill test2@dla.com the text fields from the contact page",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/outline.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 284803000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user select the USA and District of Columbia names from drop down lists",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/outline.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 448802000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user validates the data has been displayed successfully",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/dla_demo.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1149513000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:104"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 474901000
             }
           }
         ]

@@ -27,15 +27,15 @@
             <td class="left_align"><a href="lib-pages-first_test_contact_page_rb.html">lib/pages/first_test_contact_page.rb</a></td>
             <td class='right_align'><tt>42</tt></td>
             <td class='right_align'><tt>27</tt></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>69.05%</tt></div>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
       <div class="percent_graph">
-        <div class="covered" style="width:69px"></div>
-        <div class="uncovered" style="width:31px"></div>
+        <div class="covered" style="width:100px"></div>
+        <div class="uncovered" style="width:0px"></div>
       </div></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>51.85%</tt></div>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
       <div class="percent_graph">
-        <div class="covered" style="width:52px"></div>
-        <div class="uncovered" style="width:48px"></div>
+        <div class="covered" style="width:100px"></div>
+        <div class="uncovered" style="width:0px"></div>
       </div></td>
           </tr>
         </tbody>
@@ -87,7 +87,7 @@
           <td><pre><a name="line13">13</a>   element(:state) { |b| b.select(:id =&gt; &#39;state&#39;)}</pre></td>
         </tr>
         <tr class="marked">
-          <td><pre><a name="line14">14</a>   element(:button) { |b| b.input(:value =&gt; &#39;Submit&#39;)}</pre></td>
+          <td><pre><a name="line14">14</a>   element(:button) { |b| b.input(:xpath =&gt; &#39;//*[@id=&quot;contactUs&quot;]/form/input[5]&#39;)}</pre></td>
         </tr>
         <tr class="inferred">
           <td><pre><a name="line15">15</a> </pre></td>
@@ -98,7 +98,7 @@
         <tr class="marked">
           <td><pre><a name="line17">17</a>   def contact_page</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line18">18</a>     contact.when_present.click</pre></td>
         </tr>
         <tr class="inferred">
@@ -110,16 +110,16 @@
         <tr class="marked">
           <td><pre><a name="line21">21</a>   def text_field_name</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line22">22</a>     first_name.when_present.send_keys &quot;Tareque&quot;</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line23">23</a>     last_name.when_present.send_keys &quot;Alam&quot;</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line24">24</a>     address_name.when_present.send_keys &quot;shreve ct&quot;</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line25">25</a>     email.when_present.send_keys &quot;test@test.com&quot;</pre></td>
         </tr>
         <tr class="inferred">
@@ -131,25 +131,25 @@
         <tr class="marked">
           <td><pre><a name="line28">28</a>   def drop_down_lists</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line29">29</a>     country.when_present.click</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line30">30</a>     sleep 2</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line31">31</a>     country.when_present.select &#39;USA&#39;</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line32">32</a>     sleep 2</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line33">33</a>     state.when_present.click</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line34">34</a>     sleep 2</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line35">35</a>     state.when_present.select &#39;Virginia&#39;</pre></td>
         </tr>
         <tr class="inferred">
@@ -159,9 +159,9 @@
           <td><pre><a name="line37">37</a> </pre></td>
         </tr>
         <tr class="marked">
-          <td><pre><a name="line38">38</a>   def submit_button</pre></td>
+          <td><pre><a name="line38">38</a>   def submit_button1</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line39">39</a>     button.when_present.click</pre></td>
         </tr>
         <tr class="inferred">
@@ -179,7 +179,7 @@
       </tbody>
     </table>
 
-    <p>Generated on 2017-06-20 09:32:20 -0400 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
+    <p>Generated on 2017-06-20 11:28:22 -0400 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
 
   </body>
 </html>

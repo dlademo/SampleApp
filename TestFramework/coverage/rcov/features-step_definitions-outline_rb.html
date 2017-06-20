@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
-    <title>features/step_definitions/dla_demo.rb</title>
+    <title>features/step_definitions/outline.rb</title>
     <link href="./assets/0.2.3/screen.css" media="all" rel="stylesheet" type="text/css" />
     <link href="./assets/0.2.3/print.css" media="print" rel="stylesheet" type="text/css" />
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
@@ -9,7 +9,7 @@
   </head>
   <body>
     <h1>Testframework C0 Coverage Information - Simploco - RCov</h1>
-    <h2>features/step_definitions/dla_demo.rb</h2>
+    <h2>features/step_definitions/outline.rb</h2>
 
     <div class="report_table_wrapper">
       <table class='report' id='report_table'>
@@ -24,9 +24,9 @@
         </thead>
         <tbody>
           <tr>
-            <td class="left_align"><a href="features-step_definitions-dla_demo_rb.html">features/step_definitions/dla_demo.rb</a></td>
-            <td class='right_align'><tt>19</tt></td>
-            <td class='right_align'><tt>10</tt></td>
+            <td class="left_align"><a href="features-step_definitions-outline_rb.html">features/step_definitions/outline.rb</a></td>
+            <td class='right_align'><tt>24</tt></td>
+            <td class='right_align'><tt>11</tt></td>
             <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
       <div class="percent_graph">
         <div class="covered" style="width:100px"></div>
@@ -51,43 +51,43 @@
     <table class="details">
       <tbody>
         <tr class="marked">
-          <td><pre><a name="line2">2</a> Given(/^User navigates to the DLA\-DEMO webpage$/) do</pre></td>
-        </tr>
-        <tr class="marked">
-          <td><pre><a name="line3">3</a> visit FirstTestContactPage</pre></td>
+          <td><pre><a name="line2">2</a> And(/^user fill first name(.*) the text fields from the contact page$/) do |fname|</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line4">4</a> end</pre></td>
-        </tr>
-        <tr class="inferred">
-          <td><pre><a name="line5">5</a> </pre></td>
+          <td><pre><a name="line3">3</a>   #on(OutlineTest).text_field_fname</pre></td>
         </tr>
         <tr class="marked">
-          <td><pre><a name="line6">6</a> When(/^User clicks on contact tab and validates the contact page is displays successfully$/) do</pre></td>
-        </tr>
-        <tr class="marked">
-          <td><pre><a name="line7">7</a>   on(FirstTestContactPage).contact_page</pre></td>
+          <td><pre><a name="line4">4</a>   @browser.input(:id =&gt; &#39;fname&#39;).when_present.send_keys fname</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line8">8</a> </pre></td>
+          <td><pre><a name="line5">5</a> end</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line9">9</a> end</pre></td>
+          <td><pre><a name="line6">6</a> </pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line7">7</a> And(/^users last name (.*) the text fields from the contact page$/) do |lname|</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line10">10</a> </pre></td>
+          <td><pre><a name="line8">8</a>  # on(OutlineTest).text_field_lname</pre></td>
         </tr>
         <tr class="marked">
-          <td><pre><a name="line11">11</a> And(/^user fill out the text fields from the contact page and clicks on submit button$/) do</pre></td>
-        </tr>
-        <tr class="marked">
-          <td><pre><a name="line12">12</a>   on(FirstTestContactPage).text_field_name</pre></td>
-        </tr>
-        <tr class="marked">
-          <td><pre><a name="line13">13</a>   on(FirstTestContactPage).drop_down_lists</pre></td>
+          <td><pre><a name="line9">9</a>   @browser.input(:id =&gt; &#39;lname&#39;).when_present.send_keys lname</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line14">14</a> </pre></td>
+          <td><pre><a name="line10">10</a> end</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line11">11</a> </pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line12">12</a> And(/^user fill out (.*) the text fields from the contact page$/) do |address|</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line13">13</a>  # on(OutlineTest).text_field_address</pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line14">14</a>   @browser.input(:id =&gt; &#39;address&#39;).when_present.send_keys address</pre></td>
         </tr>
         <tr class="inferred">
           <td><pre><a name="line15">15</a> end</pre></td>
@@ -96,16 +96,31 @@
           <td><pre><a name="line16">16</a> </pre></td>
         </tr>
         <tr class="marked">
-          <td><pre><a name="line17">17</a> Then(/^user validates the data has been displayed successfully$/) do</pre></td>
+          <td><pre><a name="line17">17</a> And(/^user can fill (.*) the text fields from the contact page$/) do |email|</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line18">18</a>   #on(OutlineTest).text_field_email</pre></td>
         </tr>
         <tr class="marked">
-          <td><pre><a name="line18">18</a>   on(FirstTestContactPage).submit_button1</pre></td>
-        </tr>
-        <tr class="marked">
-          <td><pre><a name="line19">19</a>   on(PagesDisplay).verification_page</pre></td>
+          <td><pre><a name="line19">19</a>   @browser.input(:id =&gt; &#39;email&#39;).when_present.send_keys email</pre></td>
         </tr>
         <tr class="inferred">
           <td><pre><a name="line20">20</a> end</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line21">21</a> </pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line22">22</a> And(/^user select the (.*) and (.*) names from drop down lists$/) do |country, state|</pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line23">23</a>   @browser.select(:id =&gt; &#39;country&#39;).when_present.send_keys &#39;country&#39;</pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line24">24</a>   @browser.select(:id =&gt; &#39;state&#39;).when_present.send_keys &#39;state&#39;</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line25">25</a> end</pre></td>
         </tr>
       </tbody>
     </table>

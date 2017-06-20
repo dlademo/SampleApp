@@ -14,5 +14,6 @@ And(/^user fill out the text fields from the contact page and clicks on submit b
 end
 
 Then(/^user validates the data has been displayed successfully$/) do
+  on(FirstTestContactPage).submit_button1
   on(PagesDisplay).verification_page
 end
