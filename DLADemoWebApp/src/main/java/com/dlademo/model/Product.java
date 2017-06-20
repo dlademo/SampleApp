@@ -1,7 +1,7 @@
 package com.dlademo.model;
 
 /**
- * Created by Le on 1/2/2016.
+ * Created by MK on 1/2/2016.
  */
 public class Product {
 
