@@ -16,7 +16,7 @@
 <html>
 <body>
 	<h1>Hello World!</h1>
-	<h2> THIS IS A TEST PAGE for demonstrating Jenkins Integration</h2>
+	<h2> This is a Test for demonstrating Jenkins Integration</h2>
 
 <form>
 	First name:<br>
