@@ -27,15 +27,15 @@
             <td class="left_align"><a href="lib-pages-generic_base_page_rb.html">lib/pages/generic_base_page.rb</a></td>
             <td class='right_align'><tt>53</tt></td>
             <td class='right_align'><tt>26</tt></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>77.36%</tt></div>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>88.68%</tt></div>
+      <div class="percent_graph">
+        <div class="covered" style="width:89px"></div>
+        <div class="uncovered" style="width:11px"></div>
+      </div></td>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>76.92%</tt></div>
       <div class="percent_graph">
         <div class="covered" style="width:77px"></div>
         <div class="uncovered" style="width:23px"></div>
-      </div></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>53.85%</tt></div>
-      <div class="percent_graph">
-        <div class="covered" style="width:54px"></div>
-        <div class="uncovered" style="width:46px"></div>
       </div></td>
           </tr>
         </tbody>
@@ -59,19 +59,19 @@
         <tr class="marked">
           <td><pre><a name="line4">4</a>   def initialize browser, visit = false</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line5">5</a>     @browser = browser</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line6">6</a>     goto if visit</pre></td>
         </tr>
         <tr class="inferred">
           <td><pre><a name="line7">7</a>     # respond_to? is a Ruby method for detecting whether the class has a particular method on it</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line8">8</a>     expected_element if respond_to? :expected_element</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line9">9</a>     has_expected_title? if respond_to? :has_expected_title?</pre></td>
         </tr>
         <tr class="inferred">
@@ -83,7 +83,7 @@
         <tr class="marked">
           <td><pre><a name="line12">12</a>   def method_missing sym, *args, &amp;block</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line13">13</a>      @browser.send sym, *args, &amp;block</pre></td>
         </tr>
         <tr class="inferred">
@@ -179,7 +179,7 @@
         <tr class="inferred">
           <td><pre><a name="line44">44</a>       #yield self enters block, associated with method call, passing current object as argument to the block</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line45">45</a>       yield self</pre></td>
         </tr>
         <tr class="inferred">
@@ -212,7 +212,7 @@
       </tbody>
     </table>
 
-    <p>Generated on 2017-06-15 10:28:01 -0400 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
+    <p>Generated on 2017-06-20 09:59:27 -0400 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
 
   </body>
 </html>
