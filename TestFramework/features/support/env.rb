@@ -3,9 +3,9 @@ require 'rspec'
 require 'rspec/expectations'  # additional
 require 'page_helper'
 require 'require_all'
-#require 'rubyXL'
+require 'rubyXL'
 require 'saucelabs'
-#require 'nokogiri'
+require 'nokogiri'
 #require 'rubyzip'
 #require 'sqlite3'
 #require 'active_record'
@@ -30,6 +30,7 @@ require 'simplecov-rcov'
 #require 'rest_client'
 #require 'rest-client'
 #require 'json'
+require 'common_function'
 
 
 SimpleCov.formatters = [
@@ -53,6 +54,7 @@ require_all './lib/pages'
 
 World PageHelper
 World DataHelper
+World(CF)
 
 #World ReuseableFunction
 

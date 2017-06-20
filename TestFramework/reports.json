@@ -21,7 +21,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4166816000
+              "duration": 4057515000
             }
           }
         ],
@@ -35,7 +35,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30382266000
+              "duration": 29009745000
             }
           },
           {
@@ -47,7 +47,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2436534000
+              "duration": 959611000
             }
           },
           {
@@ -59,7 +59,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8828926000
+              "duration": 8707124000
             }
           },
           {
@@ -71,7 +71,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1220714000
+              "duration": 487004000
             }
           }
         ],
@@ -82,7 +82,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 451801000
+              "duration": 526701000
             }
           }
         ]
@@ -111,7 +111,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3739715000
+              "duration": 3729112000
             }
           }
         ],
@@ -125,7 +125,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7886921000
+              "duration": 30619770000
             }
           },
           {
@@ -137,7 +137,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4575442000
+              "duration": 2956415000
             }
           },
           {
@@ -161,7 +161,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6323292000
+              "duration": 4753868000
             }
           },
           {
@@ -173,7 +173,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 22501000
+              "duration": 17501000
             }
           },
           {
@@ -185,7 +185,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2407032000
+              "duration": 1182613000
             }
           },
           {
@@ -197,7 +197,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 25001000
+              "duration": 12500000
             }
           }
         ],
@@ -208,7 +208,401 @@
             },
             "result": {
               "status": "passed",
-              "duration": 511101000
+              "duration": 378801000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "C:/Users/Tareque.Alam/Documents/GitHub/SampleApp/TestFramework/features/DLA_Excel_Contact_Page.feature",
+    "id": "this-test-is-to-validate-the-contact-page's-functionality-for-the-dla-demo-website",
+    "keyword": "Feature",
+    "name": "This test is to validate the Contact page's functionality for the DLA-DEMO website",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "this-test-is-to-validate-the-contact-page's-functionality-for-the-dla-demo-website;user-validates-the-contact-page-is-functional;;2",
+        "keyword": "Scenario Outline",
+        "name": "User validates the contact page is functional",
+        "description": "",
+        "line": 14,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3802813000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "User navigates to the DLA-DEMO webpage",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/dla_demo.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23939667000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User clicks on contact tab and validates the contact page is displays successfully",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/dla_demo.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 761408000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user fill first name \"1\" the text fields from the contact page select",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/excel_outline.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 385303000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "users last name \"1\" the text fields from the contact page select",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/excel_outline.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 433802000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user fill out  \"1\" the text fields from the contact page select",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/excel_outline.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 540003000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user can fill \"1\" the text fields from the contact page select",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/excel_outline.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 416402000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user select the \"1\" and \"1\" names from drop down lists select",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/excel_outline.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 688503000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user validates the data has been displayed successfully",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/dla_demo.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 724708000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:104"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 350101000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-test-is-to-validate-the-contact-page's-functionality-for-the-dla-demo-website;user-validates-the-contact-page-is-functional;;3",
+        "keyword": "Scenario Outline",
+        "name": "User validates the contact page is functional",
+        "description": "",
+        "line": 15,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3800915000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "User navigates to the DLA-DEMO webpage",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/dla_demo.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13562008000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User clicks on contact tab and validates the contact page is displays successfully",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/dla_demo.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2042526000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user fill first name \"2\" the text fields from the contact page select",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/excel_outline.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 605503000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "users last name \"2\" the text fields from the contact page select",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/excel_outline.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 414502000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user fill out  \"2\" the text fields from the contact page select",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/excel_outline.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 495003000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user can fill \"2\" the text fields from the contact page select",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/excel_outline.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 347101000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user select the \"2\" and \"2\" names from drop down lists select",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/excel_outline.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 542503000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user validates the data has been displayed successfully",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/dla_demo.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1006013000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:104"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 329501000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-test-is-to-validate-the-contact-page's-functionality-for-the-dla-demo-website;user-validates-the-contact-page-is-functional;;4",
+        "keyword": "Scenario Outline",
+        "name": "User validates the contact page is functional",
+        "description": "",
+        "line": 16,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4138715000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "User navigates to the DLA-DEMO webpage",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/dla_demo.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28249733000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User clicks on contact tab and validates the contact page is displays successfully",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/dla_demo.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 805808000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user fill first name \"3\" the text fields from the contact page select",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/excel_outline.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 561904000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "users last name \"3\" the text fields from the contact page select",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/excel_outline.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 641703000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user fill out  \"3\" the text fields from the contact page select",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/excel_outline.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 453802000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user can fill \"3\" the text fields from the contact page select",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/excel_outline.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 433202000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user select the \"3\" and \"3\" names from drop down lists select",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/excel_outline.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 755404000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user validates the data has been displayed successfully",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/dla_demo.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1136515000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:104"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 342601000
             }
           }
         ]
@@ -237,7 +631,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3626715000
+              "duration": 3530615000
             }
           }
         ],
@@ -251,7 +645,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7940021000
+              "duration": 26979714000
             }
           },
           {
@@ -263,7 +657,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2627535000
+              "duration": 758207000
             }
           },
           {
@@ -275,7 +669,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 325902000
+              "duration": 441504000
             }
           },
           {
@@ -287,7 +681,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 413202000
+              "duration": 316502000
             }
           },
           {
@@ -299,7 +693,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 437602000
+              "duration": 295402000
             }
           },
           {
@@ -311,7 +705,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 267201000
+              "duration": 295302000
             }
           },
           {
@@ -323,7 +717,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 445102000
+              "duration": 506303000
             }
           },
           {
@@ -335,7 +729,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 777709000
+              "duration": 5400279000
             }
           }
         ],
@@ -346,7 +740,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 454301000
+              "duration": 357601000
             }
           }
         ]
@@ -365,7 +759,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3813615000
+              "duration": 3568914000
             }
           }
         ],
@@ -379,7 +773,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 24214671000
+              "duration": 44104977000
             }
           },
           {
@@ -391,7 +785,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1867725000
+              "duration": 753308000
             }
           },
           {
@@ -403,7 +797,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 387803000
+              "duration": 302903000
             }
           },
           {
@@ -415,7 +809,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 386402000
+              "duration": 366401000
             }
           },
           {
@@ -427,7 +821,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 359602000
+              "duration": 287202000
             }
           },
           {
@@ -439,7 +833,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 393302000
+              "duration": 320303000
             }
           },
           {
@@ -451,7 +845,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 551803000
+              "duration": 590502000
             }
           },
           {
@@ -463,7 +857,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 758207000
+              "duration": 536505000
             }
           }
         ],
@@ -474,7 +868,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 467401000
+              "duration": 352601000
             }
           }
         ]
@@ -493,7 +887,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3889614000
+              "duration": 3667315000
             }
           }
         ],
@@ -507,7 +901,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9074438000
+              "duration": 4422568000
             }
           },
           {
@@ -519,7 +913,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2232630000
+              "duration": 804609000
             }
           },
           {
@@ -531,7 +925,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 382103000
+              "duration": 569404000
             }
           },
           {
@@ -543,7 +937,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 257201000
+              "duration": 280301000
             }
           },
           {
@@ -555,7 +949,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 277202000
+              "duration": 270302000
             }
           },
           {
@@ -567,7 +961,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 284803000
+              "duration": 277201000
             }
           },
           {
@@ -579,7 +973,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 448802000
+              "duration": 415203000
             }
           },
           {
@@ -591,7 +985,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1149513000
+              "duration": 508904000
             }
           }
         ],
@@ -602,7 +996,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 474901000
+              "duration": 313901000
             }
           }
         ]

@@ -17,3 +17,5 @@ Then(/^user validates the data has been displayed successfully$/) do
   on(FirstTestContactPage).submit_button1
   on(PagesDisplay).verification_page
 end
+
+
