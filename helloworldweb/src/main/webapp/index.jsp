@@ -1,4 +1,5 @@
 <form>
+	<h1>Welcome To Our DLA-Demo</h1>
 	First name:<br>
 	 	<input type="text" name="firstname"><br>
         Last name:<br>
@@ -15,8 +16,8 @@
 
 <html>
 <body>
-	<h1>Hello World!</h1>
-	<h2> This is a Test for demonstrating Jenkins Integration</h2>
+
+	<h1> This is a Test for demonstrating Jenkins Integration</h1>
 
 <form>
 	First name:<br>
