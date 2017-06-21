@@ -13,6 +13,7 @@ end
 
 And(/^user clicks on devops tab from homepage$/) do
   on(PagesDisplay).devops_page
+  sleep 2
 end
 
 Then(/^user is able to verify the devops page exist$/) do
@@ -21,6 +22,7 @@ end
 
 And(/^user clicks on Software Development tab from homepage$/) do
   on(PagesDisplay).software_page
+  sleep 2
 end
 
 Then(/^user is able to verify the Software Development page exist$/) do

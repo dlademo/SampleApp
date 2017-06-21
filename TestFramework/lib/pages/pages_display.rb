@@ -22,4 +22,7 @@ class PagesDisplay < GenericBasePage
     puts "Welcome To: #{@browser.title}"
   end
 
+  def verification_page_one
+    puts "Welcome To: #{@browser.title1}"
+  end
 end
