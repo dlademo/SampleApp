@@ -1,5 +1,5 @@
 <form>
-	<h1>Welcome To Our DLA-Demo</h1>
+	<h1>Welcome To Our DLADemo</h1>
 	First name:<br>
 	 	<input type="text" name="firstname"><br>
         Last name:<br>
