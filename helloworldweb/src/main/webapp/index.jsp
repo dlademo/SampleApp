@@ -1,6 +1,6 @@
 <form>
 	<h1>Welcome To Capgemini GS Hello World Demo</h1>
-	<h1>If you are Interested to know more about DevSecOps, please fill up this section</h1>
+	<h1>If you are Interested to know more about DevSecOps,please fill up this section for more info</h1>
 	First name:<br>
 	 	<input type="text" name="firstname"><br>
         Last name:<br>
