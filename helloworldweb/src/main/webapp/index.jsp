@@ -1,5 +1,6 @@
 <form>
-	<h1>Welcome To Our DLADemo</h1>
+	<h1>Welcome To Capgemini GS Hello World App</h1>
+	<h2>If want to know more about DevOps,then Please fill Up this section</h2>
 	First name:<br>
 	 	<input type="text" name="firstname"><br>
         Last name:<br>
@@ -17,7 +18,7 @@
 <html>
 <body>
 
-	<h1> This is a Test for demonstrating Jenkins Integration</h1>
+	<h1>If you need more info for DevSecOps, then fill up this</h1>
 
 <form>
 	First name:<br>
